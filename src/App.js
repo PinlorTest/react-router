@@ -8,8 +8,8 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <Switch>
-          <Route path="/login" compoment={Login}></Route>
-          <Route path="/not-found" compoment={notFound}></Route>
+          <Route path="/login" component={Login}></Route>
+          <Route path="/not-found" component={notFound}></Route>
           <Redirect from="/" exact to="/login"></Redirect>
           <Redirect to="/not-found" />
         </Switch>
